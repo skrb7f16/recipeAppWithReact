@@ -1,0 +1,25 @@
+.recipie{
+    width: 500px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    transition: 650ms;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .recipie img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  .recipie:hover{
+    box-shadow: 4px 4px 4px rgb(141, 139, 139),4px 4px 4px rgb(133, 126, 126);
+  }
+
+  .details{
+      display: flex;
+      
+  }
